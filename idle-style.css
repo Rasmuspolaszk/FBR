@@ -1,0 +1,7 @@
+.touch-button{
+    width: 70px;
+}
+body{
+    background-image: url(media/background-blur.jpg);
+    filter: blur(px);
+}
