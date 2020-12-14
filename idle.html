@@ -8,7 +8,25 @@
 </head>
 <body>
     <main>
-    <img src="media/skulltrooper-tile.png" alt="dgdrgrg">
+        <article id="sequence"></article>
     </main> 
 </body>
+<script>
+    var example = ['Hej min ven', 'Kom og leg', 'Hey du der!', 'Spil med mig'];
+
+    textSequence(0);
+    function textSequence(i) {
+
+        if (example.length > i) {
+            setTimeout(function() {
+                document.getElementById("sequence").innerHTML = example[i];
+                textSequence(++i);
+            }, 4000); // 1 second (in milliseconds)
+
+        } else if (example.length == i) { // Loop
+            textSequence(0);
+        }
+
+    }
+</script>
 </html>
