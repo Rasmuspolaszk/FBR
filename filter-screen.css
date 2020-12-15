@@ -1,40 +1,31 @@
 .background{
     background-image: url(Media/store.jpg);
+    background-size: cover;
+    background-position: center;
 } 
 
 .hexagon {
-    position: relative;
-    width: 300px; 
-    height: 173.21px;
-    background-color: black;
-    margin: 86.60px 0;
+    display: block;
+    width: 300px;
+    height: 275px;
+    /* set transparent background */ 
+    background-color: rgb(255,255,255,0.3);
 
-    /*blur styling*/
-    background: rgba( 255, 255, 255, 0.50 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 4px );
-    -webkit-backdrop-filter: blur( 4px );
-    border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    /* blur the hell out of it */
+    backdrop-filter: blur(17px);
 
+    /* Clip the edges of the box so that it looks like a hexagon */
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
+  .controller,.camera{
+      max-width: 30%;
   }
-  
-  .hexagon:before,
-  .hexagon:after {
-    content: "";
-    position: absolute;
-    width: 0;
-    border-left: 150px solid transparent;
-    border-right: 150px solid transparent;
+
+  .skulltrooper{
+      max-width: 50%;
   }
-  
-  .hexagon:before {
-    bottom: 100%;
-    border-bottom: 86.60px solid #ffffff;
-  }
-  
-  .hexagon:after {
-    top: 100%;
-    width: 0;
-    border-top: 86.60px solid #ffffff;
+
+  .brite,.drift{
+      max-width: 30%;
   }
