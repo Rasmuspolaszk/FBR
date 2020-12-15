@@ -2,6 +2,9 @@
     background-image: url(Media/crop-store.png);
     background-size: cover;
     background-position: center;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
 } 
 
 .hexagon {
@@ -18,8 +21,20 @@
     clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
 }
 
-  .controller,.camera{
-      max-width: 30%;
+.hexagon.position1,.position2,.position3,.position4,.position6{
+    width: 75px;
+    height: 68.75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  .controller{
+      max-width: 60%;
+  }
+
+  .camera{
+    max-width: 50%;
   }
 
   .skulltrooper{
