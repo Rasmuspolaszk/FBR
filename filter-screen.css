@@ -1,13 +1,13 @@
 .background{
-    background-image: url(Media/store.jpg);
+    background-image: url(Media/crop-store.png);
     background-size: cover;
     background-position: center;
 } 
 
 .hexagon {
     display: block;
-    width: 300px;
-    height: 275px;
+    width: 150px;
+    height: 137.5px;
     /* set transparent background */ 
     background-color: rgb(255,255,255,0.3);
 
