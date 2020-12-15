@@ -1,0 +1,21 @@
+body{
+    background-image: url(media/background-blur.jpg);
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+img{
+    width: 125px;
+  
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    width: 125px;
+    background-color: white;
+    border-radius: 10px;
+}
+P{
+    font-family: futura;
+}

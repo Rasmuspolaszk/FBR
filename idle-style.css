@@ -11,11 +11,21 @@
 body{
     background-image: url(media/background-blur.jpg);
 }
+.hand{
+    width: 350px;
+    height: 350px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-self: center;
+    margin-top: 50px;
+}
+
 #sequence{
     color: white;
     font-size: 3em;
     font-family: futura;
-    transform: rotate(-20deg);
+    transform: rotate(-10deg);
     text-align: center;
-    margin-top: 50px;
+    margin-top: 100px;
 }
