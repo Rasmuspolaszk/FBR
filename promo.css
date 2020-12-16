@@ -1,0 +1,48 @@
+body{
+    background: rgb(242,31,31);
+    background: linear-gradient(135deg, rgba(242,31,31,1) 0%, rgba(255,203,60,1) 50%, rgba(0,49,255,1) 100%);
+    backdrop-filter: blur(17px);
+    z-index: -1;
+}
+
+.welcome{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    margin-top: 200px;
+}
+
+.br-dreng{
+    width: 350px;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.br-pige{
+    width: 350px;
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.headline, .subtext{
+    grid-column: 2/3;
+    grid-row: 1;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2em;
+}
+
+.subtext{
+    margin-top: 100px;
+}
+
+main{
+    display: flex;
+    gap: 45px;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.steps{
+    border-radius: 20px;
+    width: 450px;
+}
