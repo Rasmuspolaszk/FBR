@@ -15,7 +15,7 @@
     background-color: rgb(255,255,255,0.3);
 
     /* blur the hell out of it */
-    backdrop-filter: blur(17px);
+    backdrop-filter: blur(5px);
 
     /* Clip the edges of the box so that it looks like a hexagon */
     clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
@@ -29,18 +29,65 @@
     align-items: center;
 }
 
-  .controller{
-      max-width: 60%;
+.hexagon.position5{
+    width: 141px;
+    height: 121.5px;
+    display: block;
+    position: relative;
+    left: 130px;
+    top: 290px;
+}
+
+.position4{
+    position: relative;
+    left: 70px;
+    top: 447px;
+}
+
+.position3{
+    position: relative;
+    left: 252px;
+    top: 396px;
+}
+
+.position2{
+    position: relative;
+    left: 70px;
+    top: 465px;
+}
+
+.position6{
+    position: relative;
+    left: 252px;
+    top: 259px;
+}
+
+
+.controller{
+    max-width: 60%;
   }
 
-  .camera{
+.camera{
     max-width: 50%;
   }
 
-  .skulltrooper{
-      max-width: 50%;
+.home{
+    max-width: 55%;
+}
+
+.skulltrooper{
+    max-width: 100%;
   }
 
   .brite,.drift{
-      max-width: 30%;
+    max-width: 105%; 
+  }
+
+  .tobias{
+      max-width: 190%;
+      display: block;
+      position: absolute;
+      left: -191px;
+      bottom: -246px;
+      
   }
