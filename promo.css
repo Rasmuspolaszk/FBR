@@ -2,7 +2,6 @@ body{
     background: rgb(242,31,31);
     background: linear-gradient(135deg, rgba(242,31,31,1) 0%, rgba(255,203,60,1) 50%, rgba(0,49,255,1) 100%);
     backdrop-filter: blur(17px);
-    z-index: -1;
 }
 
 .welcome{
@@ -44,5 +43,5 @@ main{
 
 .steps{
     border-radius: 20px;
-    width: 450px;
+    width: 300px;
 }
