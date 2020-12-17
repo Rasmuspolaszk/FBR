@@ -1,0 +1,99 @@
+.background{
+    background-image: url(Media/crop-store.png);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+} 
+
+.hexagon {
+    display: block;
+    width: 150px;
+    height: 137.5px;
+    /* set transparent background */ 
+    background-color: rgb(255,255,255,0.3);
+
+    /* blur the hell out of it */
+    backdrop-filter: blur(5px);
+
+    /* Clip the edges of the box so that it looks like a hexagon */
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
+.hexagon.position1,.position2,.position3,.position4,.position6{
+    width: 75px;
+    height: 68.75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hexagon.position5{
+    width: 141px;
+    height: 121.5px;
+    display: block;
+    position: relative;
+    left: 130px;
+    top: 290px;
+}
+
+.position4{
+    position: relative;
+    left: 70px;
+    top: 447px;
+}
+
+.position3{
+    position: relative;
+    left: 252px;
+    top: 396px;
+}
+
+.position2{
+    position: relative;
+    left: 70px;
+    top: 465px;
+}
+
+.position6{
+    position: relative;
+    left: 252px;
+    top: 259px;
+}
+
+.filter{
+    max-width: 40%;
+    
+  }
+
+.camera{
+    max-width: 50%;
+  }
+
+.home{
+    max-width: 55%;
+}
+
+.lego{
+    max-width: 100%;
+  }
+
+  .brgame,.barbie{
+    max-width: 105%; 
+  }
+
+  .tobias{
+      max-width: 100%;
+      display: block;
+      position: absolute;
+      left: -0px;
+      bottom: -15px;
+  }
+  
+  .mask{
+    position: absolute;
+    max-width: 30%;
+    left: 140px;
+    top: 150px;
+}
