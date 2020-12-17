@@ -21,7 +21,7 @@
     clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
 }
 
-.hexagon.position1,.position2,.position3,.position4,.position6{
+.hexagon.position1,.position2,.position3{
     width: 75px;
     height: 68.75px;
     display: flex;
@@ -32,16 +32,12 @@
 .hexagon.position5{
     width: 141px;
     height: 121.5px;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    left: 130px;
-    top: 290px;
-}
-
-.position4{
-    position: relative;
-    left: 70px;
-    top: 447px;
+    left: 125px;
+    top: 360px;
 }
 
 .position3{
@@ -56,31 +52,29 @@
     top: 465px;
 }
 
-.position6{
-    position: relative;
-    left: 252px;
-    top: 259px;
-}
-
 .controller{
     max-width: 60%;
   }
 
 .camera{
-    max-width: 50%;
+    max-width: 55%;
+    margin-bottom: 15px;
   }
 
 .home{
     max-width: 55%;
 }
 
-.skulltrooper{
-    max-width: 100%;
+.filter{
+    max-width: 40%;
   }
 
-  .brite,.drift{
-    max-width: 105%; 
-  }
+.mask{
+    position: absolute;
+    max-width: 30%;
+    left: 140px;
+    top: 150px;
+}
 
   .tobias{
       max-width: 100%;
@@ -89,10 +83,3 @@
       left: -0px;
       bottom: -15px;
   }
-  
-  .mask{
-    position: absolute;
-    max-width: 30%;
-    left: 140px;
-    top: 150px;
-}
