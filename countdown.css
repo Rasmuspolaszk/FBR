@@ -1,0 +1,47 @@
+body { 
+    background-image: url(media/crop-store.png);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+} 
+
+@font-face{
+    font-family: futura;
+    src: url(font/Futura.ttc);
+}
+
+h1 { 
+    display: flex; 
+    justify-content: center; 
+    color: white; 
+    font-size: 150px;
+    font-family: futura;
+    padding-top: 380px;
+} 
+
+span::before { 
+    content: ""; 
+    animation: animate infinite 5s; 
+    padding-left: 10px;  
+} 
+
+@keyframes animate { 
+
+    25%{
+        content: "3";
+    }
+
+    50% { 
+        content: "2"; 
+    } 
+
+    75% { 
+        content: "1"; 
+    } 
+
+    100% { 
+        content: "SMIL"; 
+    } 
+} 
