@@ -1,0 +1,45 @@
+body{
+    background-image: url(media/background-blur.jpg);
+}
+
+.picture{
+    max-width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.home{
+    max-width: 55%;
+}
+
+.qr-tile{
+    max-width: 50%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+}
+
+.hexagon {
+    display: block;
+    width: 150px;
+    height: 137.5px;
+    /* set transparent background */ 
+    background-color: rgb(255,255,255,0.3);
+
+    /* blur the hell out of it */
+    backdrop-filter: blur(5px);
+
+    /* Clip the edges of the box so that it looks like a hexagon */
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
+.hexagon.position1{
+    width: 75px;
+    height: 68.75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
